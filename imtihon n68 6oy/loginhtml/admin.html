@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin sahifasi</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2>Admin sahifasi</h2>
+      <form id="adminForm">
+        <input
+          type="text"
+          id="productName"
+          placeholder="Mahsulot nomi"
+          required
+        />
+        <input
+          type="text"
+          id="productPrice"
+          placeholder="Mahsulot narxi"
+          required
+        />
+        <input
+          type="text"
+          id="productDescription"
+          placeholder="Mahsulot tavsifi"
+          required
+        />
+        <button type="submit">Mahsulot qo'shish</button>
+      </form>
+
+      <ul id="productList"></ul>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
